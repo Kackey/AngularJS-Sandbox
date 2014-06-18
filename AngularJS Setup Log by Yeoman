@@ -1,0 +1,269 @@
+AngularJS Setup Log by Yeoman
+
+b_private/AngularJS-Sandbox (setup_Mac)                                                                                                                 
+% npm -v                                                                                                                                                          [12:38:26]
+1.4.14
+^_^  ~/git_repo/GitHub_private/AngularJS-Sandbox (setup_Mac)                                                                                                                 
+% grunt -v                                                                                                                                                        [12:38:34]
+grunt-cli: The grunt command line interface. (v0.1.13)
+
+Fatal error: Unable to find local grunt.
+
+If you're seeing this message, either a Gruntfile wasn't found or grunt
+hasn't been installed locally to your project. For more information about
+installing and configuring grunt, please see the Getting Started guide:
+
+http://gruntjs.com/getting-started
+X_X  ~/git_repo/GitHub_private/AngularJS-Sandbox (setup_Mac)                                                                                                                 
+% npm install -g grunt-cli                                                                                                                                        [12:38:37]
+/Users/hide/.nvm/v0.10.29/bin/grunt -> /Users/hide/.nvm/v0.10.29/lib/node_modules/grunt-cli/bin/grunt
+grunt-cli@0.1.13 /Users/hide/.nvm/v0.10.29/lib/node_modules/grunt-cli
+├── resolve@0.3.1
+├── nopt@1.0.10 (abbrev@1.0.5)
+└── findup-sync@0.1.3 (lodash@2.4.1, glob@3.2.11)
+^_^  ~/git_repo/GitHub_private/AngularJS-Sandbox (setup_Mac)                                                                                                                 
+% yo angular                                                                                                                                                      [12:40:32]
+
+     _-----_
+    |       |    .--------------------------.
+    |--(o)--|    |    Welcome to Yeoman,    |
+   `---------´   |   ladies and gentlemen!  |
+    ( _´U`_ )    '--------------------------'
+    /___A___\    
+     |  ~  |     
+   __'.___.'__   
+ ´   `  |° ´ Y ` 
+
+Out of the box I include Bootstrap and some AngularJS recommended modules.
+
+[?] Would you like to use Sass (with Compass)? Yes    
+[?] Would you like to include Bootstrap? Yes    
+[?] Would you like to use the Sass version of Bootstrap? Yes    
+[?] Which modules would you like to include? angular-animate.js, angular-cookies.js, angular-resource.js, angular-route.js, angular-sanitize.js, angular-touch.js
+   create app/styles/main.scss
+   create app/index.html
+   create bower.json  
+   create .bowerrc 
+   create package.json
+   create Gruntfile.js
+   invoke   angular:common:/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/app/index.js
+   create     .editorconfig
+   create     .gitattributes
+   create     .jshintrc
+ conflict     .gitignore
+[?] Overwrite .gitignore? overwrite 
+    force     .gitignore
+   create     test/.jshintrc
+   create     app/.buildignore
+   create     app/.htaccess
+   create     app/404.html
+   create     app/favicon.ico
+   create     app/robots.txt
+   create     app/views/main.html
+   create     app/images/yeoman.png
+   invoke   angular:main:/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/app/index.js
+   create     app/scripts/app.js
+   invoke   angular:controller:/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/app/index.js
+   create     app/scripts/controllers/main.js
+   create     test/spec/controllers/main.js
+   invoke   karma:app
+
+
+I'm all done. Running bower install & npm install for you to install the required dependencies. If this fails, try running the command yourself.
+
+
+   invoke       angular:route
+   invoke           angular:controller:/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/route/index.js
+   create             app/scripts/controllers/about.js
+   create             test/spec/controllers/about.js
+   invoke           angular:view:/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/route/index.js
+   create             app/views/about.html
+   create     test/karma.conf.js
+   create     .travis.yml
+npm WARN package.json angularjssandbox@0.0.0 No description
+npm WARN package.json angularjssandbox@0.0.0 No repository field.
+npm WARN package.json angularjssandbox@0.0.0 No README data
+npm WARN package.json angularjssandbox@0.0.0 No description
+npm WARN package.json angularjssandbox@0.0.0 No repository field.
+npm WARN package.json angularjssandbox@0.0.0 No README data
+npm ERR! Error: ENOENT, utime '/Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/grunt/internal-tasks/bump.js'
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 13.1.0
+npm ERR! command "/Users/hide/.nvm/v0.10.29/bin/node" "/Users/hide/.nvm/v0.10.29/bin/npm" "install"
+npm ERR! cwd /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox
+npm ERR! node -v v0.10.29
+npm ERR! npm -v 1.4.14
+npm ERR! path /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/grunt/internal-tasks/bump.js
+ERR! fstream_path /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/grunt/internal-tasks/bump.js
+npm ERR! fstream_type File
+npm ERR! fstream_class FileWriter
+npm ERR! fstream_finish_call utimes
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm ERR! fstream_stack /Users/hide/.nvm/v0.10.29/lib/node_modules/npm/node_modules/fstream/lib/writer.js:305:19
+npm ERR! fstream_stack Object.oncomplete (fs.js:107:15)
+ ?] May bower anonymously report usage statistics to improve the tool over time? (Y/n) |
+> phantomjs@1.9.7-8 install /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+> node install.js
+
+Downloading https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-macosx.zip
+Saving to /var/folders/_8/3hpk17ms4p39wxd5f1jg1kk40000gn/T/phantomjs/phantomjs-1.9.7-macosx.zip
+Receiving...
+Received 9186K total.
+Extracting zip contents
+Copying extracted folder /var/folders/_8/3hpk17ms4p39wxd5f1jg1kk40000gn/T/phantomjs/phantomjs-1.9.7-macosx.zip-extract-1403063201162/phantomjs-1.9.7-macosx -> /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Writing location.js file
+Done. Phantomjs binary available at /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
+ 
+> fsevents@0.2.0 install /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/karma/node_modules/chokidar/node_modules/fsevents
+> node-gyp rebuild
+
+  CXX(target) Release/obj.target/fse/fsevents.o
+  SOLINK_MODULE(target) Release/fse.node
+  SOLINK_MODULE(target) Release/fse.node: Finished
+ 
+> ws@0.4.31 install /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+ 
+> jpegtran-bin@0.2.6 postinstall /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin
+> node index.js
+
+  SOLINK_MODULE(target) Release/bufferutil.node
+  SOLINK_MODULE(target) Release/bufferutil.node: Finished
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/validation.node
+  SOLINK_MODULE(target) Release/validation.node: Finished
+✓ pre-build test passed successfully
+ 
+> pngquant-bin@0.3.1 postinstall /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin
+> node index.js
+
+✗ pre-build test failed, compiling from source...
+karma-phantomjs-launcher@0.1.4 node_modules/karma-phantomjs-launcher
+└── phantomjs@1.9.7-8 (which@1.0.5, rimraf@2.2.8, ncp@0.4.2, kew@0.1.7, mkdirp@0.3.5, adm-zip@0.2.1, npmconf@0.0.24, request@2.36.0)
+
+grunt@0.4.5 node_modules/grunt
+├── which@1.0.5
+├── dateformat@1.0.2-1.2.3
+├── eventemitter2@0.4.13
+├── getobject@0.1.0
+├── rimraf@2.2.8
+├── colors@0.6.2
+├── async@0.1.22
+├── hooker@0.2.3
+├── grunt-legacy-util@0.2.0
+├── exit@0.1.2
+├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
+├── lodash@0.9.2
+├── coffee-script@1.3.3
+├── underscore.string@2.2.1
+├── iconv-lite@0.2.11
+├── glob@3.1.21 (graceful-fs@1.2.3, inherits@1.0.0)
+├── nopt@1.0.10 (abbrev@1.0.5)
+├── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)
+├── js-yaml@2.0.5 (esprima@1.0.4, argparse@0.1.15)
+└── grunt-legacy-log@0.1.1 (lodash@2.4.1, underscore.string@2.3.3)
+
+grunt-karma@0.8.3 node_modules/grunt-karma
+└── lodash@2.4.1
+
+karma@0.12.16 node_modules/karma
+├── di@0.0.1
+├── graceful-fs@2.0.3
+├── rimraf@2.2.8
+├── colors@0.6.2
+├── mime@1.2.11
+├── q@0.9.7
+├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)
+├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)
+├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0)
+├── source-map@0.1.34 (amdefine@0.1.0)
+├── useragent@2.0.8 (lru-cache@2.2.4)
+├── log4js@0.6.14 (semver@1.1.4, readable-stream@1.0.27-1, async@0.1.15)
+├── http-proxy@0.10.4 (pkginfo@0.3.0, utile@0.2.1)
+├── connect@2.12.0 (uid2@0.0.3, methods@0.1.0, cookie-signature@1.0.1, debug@0.8.1, pause@0.0.1, fresh@0.2.0, qs@0.6.6, bytes@0.2.1, buffer-crc32@0.2.1, raw-body@1.1.2, batch@0.5.0, cookie@0.1.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
+├── lodash@2.4.1
+├── chokidar@0.8.2 (recursive-readdir@0.0.2, fsevents@0.2.0)
+└── socket.io@0.9.17 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
+
+karma-jasmine@0.1.5 node_modules/karma-jasmine
+libpng-dev is installed
+
+{ [Error: Command failed: In file included from pngquant.c:59:
+./rwpng.h:35:10: fatal error: 'png.h' file not found
+#include "png.h"    /* libpng header; includes zlib.h */
+         ^
+1 error generated.
+make: *** [pngquant.o] Error 1
+] killed: false, code: 2, signal: null }
+ 
+> optipng-bin@0.3.8 postinstall /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin
+> node index.js
+
+✓ pre-build test passed successfully
+ 
+> gifsicle@0.1.5 postinstall /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle
+> node index.js
+
+✓ pre-build test passed successfully
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /Users/hide/git_repo/GitHub_private/AngularJS-Sandbox/npm-debug.log
+npm ERR! not ok code 0
+
+/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/wiredep/lib/detect-dependencies.js:84
+  if (_.isString(componentConfigFile.main)) {
+                                    ^
+TypeError: Cannot read property 'main' of undefined
+    at findMainFiles (/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/wiredep/lib/detect-dependencies.js:84:37)
+    at /Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/wiredep/lib/detect-dependencies.js:146:17
+    at forOwn (/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/wiredep/node_modules/lodash/dist/lodash.js:1301:15)
+    at Function.forEach (/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/wiredep/node_modules/lodash/dist/lodash.js:2595:9)
+    at detectDependencies (/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/wiredep/lib/detect-dependencies.js:28:5)
+    at wiredep (/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/wiredep/wiredep.js:56:39)
+    at Generator._injectDependencies (/Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/app/index.js:326:5)
+    at /Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/async/lib/async.js:232:13
+    at /Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/async/lib/async.js:113:21
+    at /Users/hide/.nvm/v0.10.29/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/async/lib/async.js:24:16
+X_X  ~/git_repo/GitHub_private/AngularJS-Sandbox (setup_Mac) <U>                                                                                                             
+%                                                                                                                                                                 [12:50:35]
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: read EIO
+    at errnoException (net.js:904:11)
+    at TTY.onread (net.js:558:19)
+c 
+X_X  ~/git_repo/GitHub_private/AngularJS-Sandbox (setup_Mac) <U>                                                                                                             
+% grunt test                                                                                                                                                      [12:56:46]
+Running "clean:server" (clean) task
+
+Running "concurrent:test" (concurrent) task
+    Warning: Running "compass:dist" (compass) task
+    Warning: You need to have Ruby and Compass installed and in your system PATH for this task to work. More info: https://github.com/gruntjs/grunt-contrib-compass Use --force to continue.
+    
+    Aborted due to warnings.
+    
+    
+    Execution Time (2014-06-18 03:57:56 UTC)
+    loading tasks  48ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+    compass:dist   49ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 50%
+    Total 98ms Use --force to continue.
+        
+        Aborted due to warnings.
+    
+
+Execution Time (2014-06-18 03:57:26 UTC)
+concurrent:test  30.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 100%
+Total 30.3s
+
+X_X  ~/git_repo/GitHub_private/AngularJS-Sandbox (setup_Mac) <U>                                                                                                             
+% ruby -v                                                                                                                                                         [12:57:58]
+ruby 2.0.0p451 (2014-02-24 revision 45167) [x86_64-darwin13.1.0]
+^_^  ~/git_repo/GitHub_private/AngularJS-Sandbox (setup_Mac) <U>                                                                                                             
+%                                
